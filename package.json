@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwind build -i src/main.css -o public/tailwind.css",
-    "dev1": "tailwind build -i src/main.css -o public/tailwind.css -w"
+    "tw": "tailwind build -i src/tailwind.css -o public/styles.css",
+    "dev1": "tailwind build -i src/tailwind.css -o public/styles.css -w"
   },
   "keywords": [],
   "author": "Sauel Almonte",

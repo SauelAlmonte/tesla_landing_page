@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "tailwind build -i src/main.css -o public/tailwind.css",
-    "watch": "tailwind build -i src/main.css -o public/tailwind.css -w"
+    "dev1": "tailwind build -i src/main.css -o public/tailwind.css -w"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sauel Almonte",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.1",

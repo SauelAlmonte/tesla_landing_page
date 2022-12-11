@@ -1,4 +1,4 @@
-## Tesla Landing Page
+# Tesla Landing Page
 <hr/>
 
-# Using TailwindCSS
+## Using TailwindCSS

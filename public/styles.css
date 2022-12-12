@@ -425,30 +425,81 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.hidden{
-  display: none;
+.fixed{
+  position: fixed;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.z-10{
+  z-index: 10;
+}
+
+.mx-\[0\.8rem\]{
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.h-\[5\.4rem\]{
+  height: 5.4rem;
 }
 
 .h-6{
   height: 1.5rem;
 }
 
-.cursor-pointer{
-  cursor: pointer;
+.w-full{
+  width: 100%;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.items-center{
+  align-items: center;
 }
 
-.font-bold{
-  font-weight: 700;
+.justify-between{
+  justify-content: space-between;
 }
 
-.underline{
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+.rounded-\[0\.8rem\]{
+  border-radius: 0.8rem;
+}
+
+.bg-transparent{
+  background-color: transparent;
+}
+
+.p-\[3\.2rem\]{
+  padding: 3.2rem;
+}
+
+.px-\[0\.8rem\]{
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.py-\[0\.4rem\]{
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
+.text-\[\#181b21\]{
+  --tw-text-opacity: 1;
+  color: rgb(24 27 33 / var(--tw-text-opacity));
 }
 
 html {
@@ -604,8 +655,11 @@ html {
   animation: bounce 1s infinite;
 }
 
-@media (min-width: 1024px){
-  .lg\:block{
-    display: block;
-  }
+.hover\:bg-\[\#181b21\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 27 33 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-opacity-10:hover{
+  --tw-bg-opacity: 0.1;
 }

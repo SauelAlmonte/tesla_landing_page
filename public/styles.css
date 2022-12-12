@@ -425,6 +425,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+.flex{
+  display: flex;
+}
+
+.hidden{
+  display: none;
+}
+
 .h-6{
   height: 1.5rem;
 }
@@ -589,4 +597,24 @@ html {
 
 .down_svg{
   animation: bounce 1s infinite;
+}
+
+@media (min-width: 768px){
+  .md\:block{
+    display: block;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:block{
+    display: block;
+  }
+}
+
+@media (min-width: 768px){
+  @media (min-width: 1024px){
+    .md\:lg\:block{
+      display: block;
+    }
+  }
 }

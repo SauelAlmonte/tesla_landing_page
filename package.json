@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "tw": "tailwind build -i src/tailwind.css -o public/styles.css",
-    "dev1": "tailwind build -i src/tailwind.css -o public/styles.css -w"
+    "dev": "tailwind build -i src/tailwind.css -o public/styles.css -w"
   },
   "keywords": [],
   "author": "Sauel Almonte",

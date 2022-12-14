@@ -37,4 +37,4 @@ For proper integration into your framework environment of choice, please click b
 
 [Github Tesla Landing Page Repository](https://github.com/SauelAlmonte/tesla_landing_page)
 
-*Please visit again*
+*Please visit again, 👋*

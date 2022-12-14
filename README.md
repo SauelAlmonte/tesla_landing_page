@@ -5,54 +5,36 @@
 
 ### Feel free to visit [My Vercel Portfolio](https://vercel.com/sauelalmonte).
 
-### To view this project, please click below
+### To view deployed project, please click below
 
-[Tesla Landing Page](https://form-validation2.vercel.app/)
+[Tesla Landing Page](https://vercel.com/sauelalmonte/tesla-landing-page)
 
 ----------------------------------------
-### What languages & frameworks were used to create this Tesla Landing Page?
+### Framework of choice, [TailwindCSS!!](https://tailwindcss.com/)
 
-[TailwindCSS](https://tailwindcss.com/) was used in this project.
+What is Tailwind CSS?
+<br>
+Tailwind CSS is a utility-first CSS framework packed with classes like flex, pt-4 (padding: in this example padding top: 4px), text-center and rotate-90 that can be composed to build any design, directly in your markup (.html file).
+<br>
 
-What is [TailwindCSS?](https://tailwindcss.com/)
+Tailwind CSS can be integrated with a number of popular framework environments.
+- [ReactJS](https://tailwindcss.com/docs/guides/create-react-app)
+- [VueJS via Vite](https://tailwindcss.com/docs/guides/vite) 
+- [AngularJS](https://tailwindcss.com/docs/guides/angular)
 
-*[TailwindCSS](https://tailwindcss.com/) is a utility first CSS Framework* that allows you to style/design, without leaving your html file.
+    <small>*just to name a few....*</small> 
 
-> Example: [index.html](https://github.com/SauelAlmonte/form-validation2/blob/main/index.html),
-> To return to the main repo page, click form-validation2 link above index.html page.
+For proper integration into your framework environment of choice, please click below.
 
-![](img/formvalidation2.png)
+[Framework Guides](https://tailwindcss.com/docs/installation/framework-guides)
+<br>
+---
+#### To view deployed project, click link below
 
-Project Overview :
+[Tesla Landing Page](https://tesla-landing-page-eight.vercel.app/)
 
-[//]: # (- Registration Form)
+#### To view GitHub Repository, click link below
 
-[//]: # (- Login Form)
-
-[//]: # (- Sign Up Form)
-
-----
-
-[//]: # (Below you will see images of the form when all requirements are met or not met.)
-
-[//]: # (> Requirements are all met:)
-
-[//]: # ()
-[//]: # (![]&#40;img/success.png&#41;)
-
-[//]: # ()
-[//]: # (> Requirements not met:)
-
-[//]: # ()
-[//]: # (![]&#40;img/error.png&#41;)
-
-[//]: # ()
-[//]: # (> Some requirements met:)
-
-[//]: # ()
-[//]: # (![]&#40;img/some.png&#41;)
-
-
-### To view this project in action, please click this link -> [Tesla Landing Page](https://form-validation2.vercel.app/)
+[Github Tesla Landing Page Repository](https://github.com/SauelAlmonte/tesla_landing_page)
 
 *Please visit again*

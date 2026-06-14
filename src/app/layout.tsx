@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   title: "Electric Cars, Solar & Clean Energy | Tesla",
   description:
     "Tesla landing page — explore Model S, Model 3, Model X, Model Y, Solar Roof, and Solar Panels.",
-  icons: { icon: "/images/favicon.ico" },
 };
 
 export const viewport: Viewport = {

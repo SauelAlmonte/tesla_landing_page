@@ -107,7 +107,7 @@ export default function Footer() {
       {/* Legal bar */}
       <div className="border-t border-white/10">
         <div className="mx-auto flex w-full max-w-6xl flex-col items-center justify-between gap-4 px-6 py-8 sm:flex-row">
-          <p className="text-xs text-white/45">
+          <p className="text-xs text-white/60">
             © <CurrentYear /> Tesla, Reimagined · Demo project, not affiliated
             with Tesla, Inc.
           </p>

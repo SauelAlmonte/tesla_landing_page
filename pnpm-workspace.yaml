@@ -1,3 +1,8 @@
 allowBuilds:
   sharp: true
   unrs-resolver: true
+
+# Force next's bundled postcss up to a patched release (>=8.5.10) to clear
+# GHSA-qx2v-qp2m-jg93. Patch-level, backward-compatible.
+overrides:
+  postcss: ">=8.5.10"

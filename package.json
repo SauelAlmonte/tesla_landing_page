@@ -2,6 +2,7 @@
   "name": "tesla-landing-page",
   "version": "1.0.0",
   "private": true,
+  "packageManager": "pnpm@11.6.0",
   "scripts": {
     "dev": "next dev",
     "dev:e2e": "next dev --port 3001",

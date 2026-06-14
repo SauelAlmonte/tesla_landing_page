@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/*
+ * Tailwind v4 theme tokens.
+ * Declared tokens become utilities, e.g. `--color-ink` -> `bg-ink`, `text-ink`.
+ * Cinematic-dark monochrome palette: no chromatic accent by design.
+ */
+@theme {
+  --color-ink: #0a0a0c;
+  --color-tesla-dark: #171a20;
+  --color-tesla-nav: #181b21;
+
+  --font-sans: var(--font-montserrat);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  background-color: var(--color-ink);
+}
+
+body {
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Reduced-motion users: disable smooth scrolling and snap — mandatory snap can
+   yank the viewport between panels, which is exactly what they opted out of. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+    scroll-snap-type: none;
+  }
+}

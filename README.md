@@ -29,7 +29,7 @@ src/
     └── motion.ts        # Shared easing + reveal variants
 
 e2e/                     # Playwright test packs (see Testing)
-public/images/           # Hero images (Model S/3/X/Y, Solar Roof/Panels)
+public/                  # Hero images (Model S/3/X/Y, Solar Roof/Panels) + tesla.svg
 
 PRODUCT.md               # Strategic design context (register, principles)
 DESIGN.md                # Visual system (color, type, motion)

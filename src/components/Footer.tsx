@@ -74,7 +74,7 @@ export default function Footer() {
       {/* Link grid */}
       <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col justify-center px-6 py-24">
         <Image
-          src="/images/tesla.svg"
+          src="/tesla.svg"
           alt="Tesla"
           width={342}
           height={35}

@@ -46,4 +46,4 @@ There is **no `tailwind.config.js`**. Tailwind v4 is CSS-first: design tokens ar
 ## Conventions
 
 - Tests are organized into tagged **packs** (`@smoke`, `@content`, `@responsive`, `@quality`) across small spec files in `e2e/`. Document tests, config, and shared modules with **TSDoc**.
-- Car images live in `public/images/*.jpg` (renamed from the originals' `.jfif`).
+- Car images and the logo live at `public/` root (`/ModelS.jpg`, `/tesla.svg`), referenced with root-absolute paths. JPGs were renamed from the originals' `.jfif`.

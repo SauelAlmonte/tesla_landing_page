@@ -39,7 +39,7 @@ export default function Navbar() {
         className="rounded focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
       >
         <Image
-          src="/images/tesla.svg"
+          src="/tesla.svg"
           alt="Tesla"
           width={342}
           height={35}
